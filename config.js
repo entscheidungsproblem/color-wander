@@ -1,5 +1,5 @@
 var seedRandom = require('seed-random');
-var palettes = require('/wal/color-list.json');
+var palettes = require('./lib/color-list.json');
 var createRandomRange = require('./lib/random-range');
 
 module.exports = function (seed) {
